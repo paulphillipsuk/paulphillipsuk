@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import '~bootstrap/dist/css/bootstrap.min.css';
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,500');
 body {
     font-family: 'Roboto';
     font-weight: 300;
@@ -16,6 +16,8 @@ body {
     background-position: center bottom;
     height: 468px;
     color: beige;
+    border-bottom: 2px #000000;
+    box-shadow: 5px 4px;
 }
 
 div::after .header {
@@ -26,14 +28,26 @@ div::after .header {
     right: 0;
 }
 
-h3, h1 {
+.header a h3, .header a h1 {
     text-shadow: 2px 2px #000000;
     font-family: 'Roboto';
-    font-weight: 300;
+    font-weight: 100;
+    opacity: 1;
+    color: beige;
+}
+
+.header a:hover {
+    
+    text-decoration: none;
+}
+
+h3, h1, {
+    font-family: 'Roboto';
+    font-weight: 100;
     opacity: 1;
 }
 
-btn, btn-link {
+.btn, .btn-link {
     font-family: 'Roboto';
     font-weight: 300;
 }
@@ -65,9 +79,8 @@ btn, btn-link {
     top position bottom: 0;
 }
 
-.sss{
+.potition-header {
     position: relative;
-  margin-top: 50px;
-  text-align: center;
+    margin-top: 50px;
     z-index: 1;
 }

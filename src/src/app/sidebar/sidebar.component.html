@@ -5,25 +5,44 @@
     </div>
 
     <div class="sidebar" id="menu">
-        <div class="">
-            <div class="container ">
-                <div class="row">
-                    <div class="offset-md-10 offset-10  col-md-1 text-center"><i class="far fa-times-circle " (click)="hide()"></i></div>
+
+        <div class="container ">
+            <div class="row">
+                <div class="offset-md-10 offset-10  col-md-1 text-center"><i class="far fa-times-circle c-pointer"
+                        (click)="hide()"></i></div>
+            </div>
+
+        </div>
+        <div class="menu-links">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-12 text-center pt-5 mt-5"><a routerLink="/home" (click)="hide()">home</a></div>
                 </div>
                 <div class="row align-bottom">
-                    <div class="col-md-12 text-center mt-5">my work</div>
+                    <div class="col-md-12 text-center mt-5"><a routerLink="/mywork" (click)="hide()">my work</a></div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 text-center mt-5">about me</div>
+                    <div class="col-md-12 text-center mt-5"><a routerLink="/contactme" (click)="hide()">contact me</a></div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 text-center mt-5">contact me</div>
+                    <div class="col-md-12 text-center mt-5">social media</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center mt-2"><a href="https://github.com/paulphillipsuk" target="new"
+                            (click)="hide()"><i class="fab fa-github fa-3x pr-2"></i></a><a href="https://facebook.com/educatedchimp" target="new"
+                            (click)="hide()"><i class="fab fa-facebook-square fa-3x pr-2"></i></a><a href="https://facebook.com/educatedchimp" target="new"
+                            (click)="hide()"><i class="fab fa-twitter-square fa-3x pr-2"></i></a></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center mt-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center mt-2"></div>
                 </div>
             </div>
+
+
+
         </div>
-
-
-
-
     </div>
 </div>
