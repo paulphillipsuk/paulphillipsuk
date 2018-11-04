@@ -74,13 +74,18 @@ h3, h1, {
     box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
     filter: blur(10px);
     left: -25px;
-    left position right: 0;
+    /*left position right: 0;*/
     top: -25px;
-    top position bottom: 0;
+    /*top position bottom: 0;*/
 }
 
 .potition-header {
     position: relative;
     margin-top: 50px;
     z-index: 1;
+}
+
+h1{
+    font-family: 'Roboto';
+    font-weight: 100;
 }

@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/efdf23c4-ba6e-4bc8-97ee-5f1010db47f8/resourceGroups/paulphillipsuk/providers/Microsoft.Web/sites/paulphillipsuk",
+    "appService.deploySubpath": "src/dist/paulphillipsuk"
+}
